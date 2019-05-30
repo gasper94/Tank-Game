@@ -1,0 +1,62 @@
+Tank
+--------------------------------------------------------------------
+1. TankWorld (extends GameWorld)
+-----------------------------
+2. Tank  (extends PlayerShip)
+3. TankBullet (extends bullet)
+4. TankLevel (extends AbstractGameModifier implements Observer)
+5. TankWeapon (extends AbstractWeapon)
+6. FancyTankWaepon (extends AbstractWeapon) (CHANGE TO TANKDOUBLEWEAPON)
+--------------------------------
+
+
+7. Wall (extends BackgroundObject)
+8. BreakableWall (extends BackgroundObject)
+----------------------------
+
+9. Simple2DMotion (extends MotionController)
+
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+Game (General)
+--------------------------------------------------------------------
+
+GameObject (implements Observer)
+
+BackgroundObject (extends GameObject)
+
+Background (extends BackgroundObjects)
+
+---------------------------------------
+BigExplosion (extends BackgroundObject)
+
+bullet (extends MoveableObject) (CHANGE WHERE IMAGES ARE BEEN ADDED FROM)
+
+Island (Change name) (DELETED)
+
+MoveableObject (extends GameObject)
+
+PlayerShip (extends Ship implements Observer) (CHANGE TO PLAYER)
+
+Ship (extends MoveableObject) (Change to Tank/ or something represents both tank and ship)
+
+
+
+Modifiers
+------------------------------------------------------------------
+
+Motions
+-------
+AbstractGameModifier (extends Observable)
+
+MotionController (extends AbstractGameModifier)
+
+InputController (extends MotionController implements keyListener)
+
+Weapons
+-------
+AbstractWeapon (AbstractGameModifier)
+
+PulseWeapon (extends AbstractWeapon)
