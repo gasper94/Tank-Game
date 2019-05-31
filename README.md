@@ -1,7 +1,4 @@
 # Tank-Game
 A Java Tank Game that make usage of OOP programming paradigms
 
-
-<img src= "http://g.recordit.co/ZuUHoQny3u.gif" width=250><br>
-
-<img src= "http://g.recordit.co/NGYlxrrGYl.gif" width=100%><br>
+![tank](https://user-images.githubusercontent.com/18272791/58680699-ca219700-831d-11e9-9cc3-45ce194495e8.gif)
